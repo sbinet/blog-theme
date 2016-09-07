@@ -107,6 +107,8 @@ h3 {
 
 .content {
     padding: 2em 1em 0;
+	max-width: 300px;
+	margin: auto;
 }
 
 .post {
