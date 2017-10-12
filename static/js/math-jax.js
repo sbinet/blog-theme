@@ -1,6 +1,5 @@
 "use strict";
 (function() {
-	console.log("hello");
 	MathJax.Hub.Config({
 	  tex2jax: {
 	    inlineMath: [['$','$'], ['\\(','\\)']],
@@ -19,7 +18,6 @@
 	    var all = MathJax.Hub.getAllJax();
 	    for(var i = 0; i < all.length; i += 1) {
 	        all[i].SourceElement().parentNode.className += ' has-jax';
-			console.log("hello "+i+" there");
 	    }
 	});
 })();
